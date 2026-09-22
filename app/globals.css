@@ -309,6 +309,21 @@ body {
   letter-spacing: 0.1em;
   color: #858585;
 }
+.copy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #858585;
+  cursor: pointer;
+  padding: 0;
+}
+.copy-btn:hover { background: #333334; color: #e8e8e8; }
+.copy-btn.copied:hover { background: transparent; }
 .codeblock pre.shiki {
   margin: 0;
   padding: 18px;

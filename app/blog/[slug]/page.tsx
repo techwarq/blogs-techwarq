@@ -4,6 +4,7 @@ import { POSTS, getPost } from "@/lib/posts";
 import { highlightPostHtml } from "@/lib/highlight";
 import ThemeToggle from "@/app/theme-toggle";
 import Socials from "@/app/socials";
+import CodeblockCopy from "@/app/codeblock-copy";
 
 export function generateStaticParams() {
   return POSTS.map((p) => ({ slug: p.slug }));
@@ -53,6 +54,7 @@ export default async function BlogPost({
           className="article-body"
           dangerouslySetInnerHTML={{ __html: bodyHtml }}
         />
+        <CodeblockCopy />
         <div className="post-socials">
           <Socials />
         </div>
