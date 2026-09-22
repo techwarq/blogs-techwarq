@@ -3,10 +3,12 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://blogs-techwarq.vercel.app"),
   title: "techwarq — blog",
   description:
     "hey, it's techwarq. how to build without the ai jargon and mess — how to pick and build meaningful stuff.",
   icons: { icon: "/favicon.ico" },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({
