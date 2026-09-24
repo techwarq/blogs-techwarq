@@ -17,7 +17,7 @@ export const POSTS: Post[] = [
   {
     slug: "meta-connect-2026-muse-ai-glasses-vr",
     tag: "AI news",
-    title: "Meta Connect 2026: Everything Meta Launched — Muse, AI Glasses, VR Glasses",
+    title: "Meta Connect 2026: What Happened to Muse — and What to Build Next",
     date: "24/09/2026",
     excerpt:
       "Recap of Meta Connect 2026 announcements including Muse, Ray-Ban Meta Audio, Muse Charm, and Meta VR Glasses.",
