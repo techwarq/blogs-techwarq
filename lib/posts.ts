@@ -5,20 +5,55 @@ export type Post = {
   date: string;
   excerpt: string;
   content: string;
+  seoTitle?: string;
+  datePublished?: string;
+  dateModified?: string;
+  updatedLabel?: string;
+  about?: string[];
+  faq?: { question: string; answer: string }[];
 };
 
 export const POSTS: Post[] = [
   {
-    slug: "meta-connect-2026-muse",
+    slug: "meta-connect-2026-muse-ai-glasses-vr",
     tag: "AI news",
-    title: "Meta Connect 2026: What Happened to Muse — and What to Build Next",
+    title: "Meta Connect 2026: Everything Meta Launched — Muse, AI Glasses, VR Glasses",
     date: "24/09/2026",
     excerpt:
-      "Meta Connect 2026 was not a glasses show with an AI cameo. It was Muse getting context, hands, and a distribution layer.",
+      "Recap of Meta Connect 2026 announcements including Muse, Ray-Ban Meta Audio, Muse Charm, and Meta VR Glasses.",
+    seoTitle:
+      "Meta Connect 2026: Everything Zuckerberg Launched — Muse, Glasses, VR",
+    datePublished: "2026-09-24T15:00:00Z",
+    dateModified: "2026-09-24T15:00:00Z",
+    updatedLabel: "September 24, 2026",
+    about: ["Meta Connect 2026", "Muse", "Ray-Ban Meta", "Meta VR Glasses"],
+    faq: [
+      {
+        question: "What did Meta announce at Connect 2026?",
+        answer:
+          "Meta announced Muse upgrades, Ray-Ban Meta Audio camera-free glasses, Ray-Ban Meta Gen 3, Muse Charm, new connectors, and Meta VR Glasses for Spring 2027 at $1,299.99.",
+      },
+      {
+        question: "What is Muse at Meta Connect 2026?",
+        answer:
+          "Muse is Meta's personal AI agent. At Connect it gained realtime voice, a live avatar, an email address, Mac computer use, glasses integration, and a keychain device called Muse Charm.",
+      },
+      {
+        question: "How much are Meta VR Glasses?",
+        answer:
+          "Meta VR Glasses cost $1,299.99 and launch in Spring 2027. They weigh about 100 grams.",
+      },
+      {
+        question: "When do Ray-Ban Meta Audio glasses ship?",
+        answer:
+          "Ray-Ban Meta Audio camera-free glasses start at $349 and ship October 13, 2026.",
+      },
+    ],
     content: `
-      <p>Meta Connect 2026 was not a glasses show with an AI cameo. It was Muse getting <strong>context, hands, and a distribution layer</strong>. That is the opening.</p>
-      <p>Personal superintelligence, in Meta's language, is not a god model. It is an agent that knows you, sees what you see, and does the work. Connect is the moment that product left the phone chat and entered the physical day.</p>
+      <p>Meta Connect 2026 (September 23–24, Menlo Park) was Mark Zuckerberg's product keynote for Muse, Ray-Ban Meta glasses, Muse Charm, and Meta VR Glasses. This recap lists every launch, what personal AI can do after Connect, where Meta goes next, and what developers can build on Muse connectors and the Wearables Device Access Toolkit.</p>
+      <p>$349 Ray-Ban Meta Audio, October 13 · $449 Gen 3 · $249 Adventurer · $1,299.99 VR Glasses, Spring 2027.</p>
       <p>If you build, the question is no longer "can I wrap an LLM." It is: <strong>what verb does Muse still lack?</strong></p>
+      <p class="updated">Updated September 24, 2026.</p>
       <h2>What actually happened to Muse</h2>
       <p>Muse launched weeks before Connect and already behaved like a personal agent: goals, apps, background work. Connect added the missing pieces that turn a chat product into infrastructure.</p>
       <p><strong>It can talk and work at the same time.</strong> Realtime voice is not a dictation feature. You keep talking. Muse keeps executing. That is the difference between an assistant and an employee.</p>
@@ -219,6 +254,27 @@ ACTION (connectors, payments, computer use)</code></pre>
       <p>Muse is the agent. Spark is the brain. Glasses are the context. Charm is the always-on mic. Connectors are the market.</p>
       <p>The companies that win are the ones that become a sentence Muse can say out loud:</p>
       <p><em>"I already handled it."</em></p>
+      <h2>Meta Connect 2026 FAQ</h2>
+      <div class="faq">
+        <details open>
+          <summary>What did Meta announce at Connect 2026?</summary>
+          <div class="faq-a">Meta announced Muse upgrades, Ray-Ban Meta Audio camera-free glasses, Ray-Ban Meta Gen 3, Muse Charm, new connectors, and Meta VR Glasses for Spring 2027 at $1,299.99.</div>
+        </details>
+        <details>
+          <summary>What is Muse at Meta Connect 2026?</summary>
+          <div class="faq-a">Muse is Meta's personal AI agent. At Connect it gained realtime voice, a live avatar, an email address, Mac computer use, glasses integration, and a keychain device called Muse Charm.</div>
+        </details>
+        <details>
+          <summary>How much are Meta VR Glasses?</summary>
+          <div class="faq-a">Meta VR Glasses cost $1,299.99 and launch in Spring 2027. They weigh about 100 grams.</div>
+        </details>
+        <details>
+          <summary>When do Ray-Ban Meta Audio glasses ship?</summary>
+          <div class="faq-a">Ray-Ban Meta Audio camera-free glasses start at $349 and ship October 13, 2026.</div>
+        </details>
+      </div>
+      <p>Source: <a href="https://meta.com/blog/meta-connect-2026-everything-we-announced/" target="_blank" rel="noreferrer">Meta's official Connect 2026 recap</a>.</p>
+      <p>More from techwarq: <a href="/blog/jev-smart-if-statement">Jev is a smart if-statement</a>.</p>
     `,
   },
   {

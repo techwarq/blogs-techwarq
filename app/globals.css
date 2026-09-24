@@ -269,6 +269,32 @@ body {
   letter-spacing: -0.01em;
   margin: 32px 0 12px;
 }
+.article-body .updated {
+  font-size: 13.5px;
+  color: var(--muted);
+}
+/* FAQ accordions */
+.faq { margin: 22px 0 26px; }
+.faq details {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  margin-bottom: 10px;
+}
+.faq summary {
+  cursor: pointer;
+  padding: 15px 18px;
+  font-weight: 600;
+  font-size: 16.5px;
+  letter-spacing: -0.01em;
+}
+.faq summary::marker { color: #ff5c0a; }
+.faq .faq-a {
+  padding: 0 18px 16px;
+  color: var(--body);
+  font-size: 16px;
+  line-height: 1.7;
+}
 .article-body ul, .article-body ol { padding-left: 22px; }
 .article-body li { margin-bottom: 8px; }
 .article-body blockquote {
