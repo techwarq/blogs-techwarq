@@ -11,41 +11,214 @@ export const POSTS: Post[] = [
   {
     slug: "meta-connect-2026-muse",
     tag: "AI news",
-    title: "Meta Connect 2026: Muse leaves the chat box",
+    title: "Meta Connect 2026: What happened to Muse — and the new personal superintelligence market",
     date: "24/09/2026",
     excerpt:
-      "Meta has talked about personal superintelligence for a year. At Connect 2026 the pitch got hardware.",
+      "Meta Connect 2026 was not a glasses show with an AI cameo. It was Muse getting context, hands, and a distribution layer.",
     content: `
-      <p>Meta has talked about personal superintelligence for a year. At Connect 2026 the pitch got hardware.</p>
-      <p>The system they are assembling is simple:</p>
-      <pre><code class="language-text">model → memory → context → agent → action</code></pre>
-      <p>Muse Spark is the model. Muse is the agent. Glasses, Charm, Mac, and VR Glasses feed it context. Connectors are how it buys, books, and ships work.</p>
-      <p>This is not ASI. It is the jump from AI that answers to AI that acts with the room in frame.</p>
-      <h2>What Zuck put on stage</h2>
-      <p><strong>Muse got a body and a job.</strong> Realtime voice while it works in the background. A live avatar (default: Jolly). Its own email address. Computer use on Mac — with permission it drives apps after you walk away. In the coming months it lands on AI glasses: say its name, point your face at a shelf or a flyer, it acts. Muse is free for now. Later Meta wants a small cut of transactions.</p>
-      <p><strong>Muse Charm</strong> is the "one more thing": a keychain holdable with a small screen, mics, fingerprint wake, and the full voice + avatar stack. Details later this year. Target talk is holidays.</p>
-      <p><strong>Connectors</strong> are the real platform. Walmart, Best Buy, Gap, Sephora, Ulta, Wayfair, Shop Pay, PayPal, the Shopify catalog, Expedia and Instacart soon, plus Notion, GitHub, Box, Spotify. Meta opened submissions. Thousands of apps in the first days.</p>
-      <p><strong>Ray-Ban Meta Audio</strong> — first camera-free pair. $349, ships Oct 13, 43g, ~12 hours. Calls, translation, Muse, all-day wear without a lens pointed at strangers.</p>
-      <p><strong>Ray-Ban Meta Gen 3</strong> — $449. Slimmer. Action button. Better mics. Aviator and Zena frames. Still has a camera and a recording LED.</p>
-      <p><strong>Volume play.</strong> Adventurer from $249. Capri, Nova, Kylie Jenner Ivory, LISA collab. Mix & Match in the US. 100+ styles by year end. Display glasses expand to Canada, UK, then France, Italy, Germany.</p>
-      <p><strong>Software that makes people keep them on.</strong> FDA-cleared hearing enhancement ($149 or Meta One). Guided workouts. Meal logging. Visual shopping. Dolby Atmos capture. Landmark navigation.</p>
-      <p><strong>Meta VR Glasses</strong> — 100g, five times lighter than Quest 3. Compute lives in a puck on your belt. 5K micro-OLED. Eyes and hands. Quest library plus new hand-only games. $1,299.99, Spring 2027.</p>
-      <h2>Where personal intelligence actually is</h2>
-      <p><strong>Real now:</strong> an agent with memory, tools, shopping, work connectors, and Mac control. Fast consumer installs. A multimodal model built to act, not caption.</p>
-      <p><strong>Still a promise:</strong> Muse on glasses, Charm shipping, VR Glasses, and the word superintelligence. Privacy is the open fight. Camera-free Audio glasses and a Secure VM (Meta says it cannot read the box) are the patch. Trust has not caught up.</p>
-      <p>The interface shift is the story. Old AI: you describe the world. New AI: the glasses <em>are</em> the description.</p>
-      <h2>Meta's bet from here</h2>
-      <p>Three products, one company.</p>
-      <p>The agent becomes the product — apps turn into skills, commerce turns into "Muse, buy the one that fits," Meta takes a fee. Glasses eat ambient phone time: audio for skeptics, cameras for power users, display for glanceable UI, VR for cinema and spatial work. The metaverse did not die. It got a socially acceptable front door.</p>
-      <p>If it works, Meta is the personal OS: identity, memory, payments, vision, voice. If it fails, it is another expensive hardware cycle on an ads company. The next 12 months decide.</p>
-      <h2>What builders should ship</h2>
-      <p><strong>Connectors first.</strong> Highest leverage this week. If Muse cannot call you, you do not exist in the session. Book, buy, write back, pull records. Niche verticals Meta will never first-party.</p>
-      <p><strong>Agent commerce.</strong> Structured catalogs, inventory, returns, size logic, checkout rails. A website is invisible. A verb is not.</p>
-      <p><strong>Glasses apps.</strong> Wearables Device Access Toolkit on iOS/Android (camera, mic, display). Web Apps on Ray-Ban Display for HTML glanceable tools. Build for what the user is looking at: field work, training, picking, accessibility, landmark nav. Audio-only glasses are a real surface — voice utilities people will wear 12 hours.</p>
-      <p><strong>Spark / Muse Code.</strong> Internal tools that plan, act, and leave a diff. That is the production path.</p>
-      <p><strong>VR Glasses, Spring 2027.</strong> Hand-first games and multi-display workspaces. Prototype on Quest now.</p>
-      <p><strong>Trust.</strong> Spend limits, audit logs, camera-off modes, enterprise connectors. Empty market. Loud demand.</p>
-      <p>Don't wrap another chatbot. Ship actions, context, and rails. The model is table stakes. The open API is <em>do this while I'm looking at that</em>.</p>
+      <p>Meta Connect 2026 was not a glasses show with an AI cameo. It was Muse getting <strong>context, hands, and a distribution layer</strong>. That is the opening.</p>
+      <p>Personal superintelligence, in Meta's language, is not a god model. It is an agent that knows you, sees what you see, and does the work. Connect is the moment that product left the phone chat and entered the physical day.</p>
+      <p>If you build, the question is no longer "can I wrap an LLM." It is: <strong>what verb does Muse still lack?</strong></p>
+      <h2>What actually happened to Muse</h2>
+      <p>Muse launched weeks before Connect and already behaved like a personal agent: goals, apps, background work. Connect added the missing pieces that turn a chat product into infrastructure.</p>
+      <p><strong>It can talk and work at the same time.</strong> Realtime voice is not a dictation feature. You keep talking. Muse keeps executing. That is the difference between an assistant and an employee.</p>
+      <p><strong>It got a face.</strong> Muse Realtime Avatar turns the agent into a character you can video-call. Default is Jolly. Custom voices, custom look. Soft, but it is how consumers will bond with an agent they let shop and email.</p>
+      <p><strong>It got an inbox.</strong> Muse has its own email address. Other people and services can message the agent, not you. That is how an agent becomes a coworker instead of a search box.</p>
+      <p><strong>It got a computer.</strong> On Mac, with permission, Muse drives apps after you walk away. Files, mail, calendar, browser. The agent is no longer trapped in its own UI.</p>
+      <p><strong>It got eyes.</strong> Muse is coming to Meta AI glasses. Wake it by name. It can act on what you are looking at — a product on a shelf, a flyer, a school-supply list — without you describing the scene. That is the whole interface shift.</p>
+      <p><strong>It got a pocket.</strong> Muse Charm is a keychain holdable: small screen, mics, fingerprint wake, full voice + avatar. Not a phone. Not glasses. Always-on talk surface.</p>
+      <p><strong>It got a business model.</strong> Free for now. Later Meta takes a small fee on transactions. Muse is being built as a <strong>commerce and work runtime</strong>, not a $20/month chatbot.</p>
+      <p><strong>It got a platform.</strong> Connectors: Walmart, Best Buy, Gap, Sephora, Ulta, Wayfair, Shop Pay, PayPal, Shopify catalog, Expedia and Instacart soon, Notion, GitHub, Box, Spotify. Meta opened developer submissions. Thousands of apps in days.</p>
+      <p>That is what happened. Muse stopped being a destination app and became a <strong>layer that other products plug into</strong>.</p>
+      <h2>The stack Connect made real</h2>
+      <pre><code class="language-text">MUSE SPARK (see, reason, act)
+ ↓
+MEMORY (you, goals, history)
+ ↓
+CONTEXT (glasses camera/audio, Charm, Mac screen)
+ ↓
+AGENT (Muse)
+ ↓
+ACTION (connectors, payments, computer use)</code></pre>
+      <p>The opportunity is not "train a bigger model." The opportunity is every layer Meta will not finish itself: niche actions, trust, vertical memory, and glasses-native workflows.</p>
+      <h2>What personal superintelligence opened (this is the market)</h2>
+      <h3>1. Agent verbs — the biggest new market</h3>
+      <p>Muse can only do what a connector lets it do. If your product is a website, you are invisible. If you are a verb — <code>reorder</code>, <code>file_claim</code>, <code>book_tech</code>, <code>pull_labs</code>, <code>close_ticket</code> — you exist inside someone else's day.</p>
+      <div class="dg">
+        <div class="dg-title">how a verb becomes a product</div>
+        <div class="dg-flow">
+          <div class="dg-node"><b>"fix this bill"</b><span>user says</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>Muse</b><span>agent</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node hot"><b>file_claim</b><span>your connector</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>done + receipt</b><span>their system</span></div>
+        </div>
+      </div>
+      <p><strong>Build:</strong> Muse connectors for things Meta will never first-party.</p>
+      <ul>
+        <li>Local services: plumbers, clinics, tutors, landlords</li>
+        <li>SMB ops: invoices, inventory, scheduling, payroll</li>
+        <li>Vertical data: legal dockets, insurance, property, labs, auto parts</li>
+        <li>Post-purchase: warranty, returns, reorder, "fix this bill"</li>
+      </ul>
+      <p>Submit early. Meta is onboarding in waves. First useful connectors become the default skill for that category.</p>
+      <h3>2. Agent commerce</h3>
+      <p>Muse can search Shopify and check out with Shop Pay / PayPal. Retail connectors are landing. The session no longer starts on your homepage. It starts with "Muse, get me the one that fits."</p>
+      <div class="dg">
+        <div class="dg-title">the session that never opens a browser</div>
+        <div class="dg-flow">
+          <div class="dg-node"><b>"get the one that fits"</b><span>session starts</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>catalog query</b><span>size · stock · subs</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node hot"><b>Shop Pay checkout</b><span>agent checkout</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>delivered</b><span>returns API ready</span></div>
+        </div>
+      </div>
+      <p><strong>Build:</strong></p>
+      <ul>
+        <li>Catalogs agents can query (size, stock, substitutes, constraints)</li>
+        <li>Return / exchange APIs</li>
+        <li>"Buy the replacement" flows (broken vase demo is the template)</li>
+        <li>Merchant-side guardrails: spend caps, approval on big carts</li>
+      </ul>
+      <p>Whoever owns <strong>agent checkout</strong> owns the cart that never opens a browser tab.</p>
+      <h3>3. First-person software (glasses)</h3>
+      <p>Old apps wait for a typed prompt. New apps run on <strong>what the user is looking at</strong>.</p>
+      <p>Muse on glasses + Device Access Toolkit + Display Web Apps = a new UI class.</p>
+      <div class="dg">
+        <div class="dg-title">glasses-native loop</div>
+        <div class="dg-flow">
+          <div class="dg-node"><b>shelf item</b><span>user looks</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>glasses see</b><span>camera · mic</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>identify + price</b><span>no typing</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node hot"><b>overlay: log · buy</b><span>glanceable UI</span></div>
+        </div>
+      </div>
+      <p><strong>Build:</strong></p>
+      <ul>
+        <li>Look-and-act tools: identify, price, log, inspect, annotate</li>
+        <li>Field work: warehouses, job sites, clinics, classrooms</li>
+        <li>Training overlays: form check, recipe steps, repair guides</li>
+        <li>Accessibility beyond Meta's hearing mode</li>
+        <li>Voice-only utilities for camera-free Audio glasses ($349, all-day wear)</li>
+      </ul>
+      <p>If your app still needs the user to narrate the scene, you are one generation behind.</p>
+      <h3>4. Background work while the human leaves</h3>
+      <p>Mac computer use + email address + connectors means Muse can run a loop you are not watching.</p>
+      <div class="dg">
+        <div class="dg-title">the loop that runs while you're gone</div>
+        <div class="dg-flow">
+          <div class="dg-node"><b>messy thread</b><span>refund chase</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>Muse works</b><span>Mac · email · apps</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node hot"><b>you approve</b><span>money moves</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>finished + log</b><span>audit trail</span></div>
+        </div>
+      </div>
+      <p><strong>Build:</strong></p>
+      <ul>
+        <li>"Muse, handle this thread" products (refunds, scheduling, vendor chase)</li>
+        <li>Audit trails: what it clicked, what it spent, what it sent</li>
+        <li>Human-in-the-loop approvals for money, legal, health</li>
+        <li>Small-business operators: inbox, books, restock, follow-ups</li>
+      </ul>
+      <p>The product is not chat. The product is <strong>a finished task when they look back</strong>.</p>
+      <h3>5. Personal memory layers</h3>
+      <p>Meta will store some memory. Users will not want <em>all</em> of it in one company.</p>
+      <div class="dg">
+        <div class="dg-title">memory Muse is allowed to use</div>
+        <div class="dg-flow col">
+          <div class="dg-node"><b>private vault</b><span>only you</span></div>
+          <div class="dg-arrow">↓</div>
+          <div class="dg-node"><b>family context</b><span>house · school lists</span></div>
+          <div class="dg-arrow">↓</div>
+          <div class="dg-node"><b>work memory</b><span>never leaves VPC</span></div>
+          <div class="dg-arrow">↓</div>
+          <div class="dg-node hot"><b>permission gate</b><span>Muse queries, never owns</span></div>
+        </div>
+      </div>
+      <p><strong>Build:</strong></p>
+      <ul>
+        <li>Private memory vaults Muse can query with permission</li>
+        <li>Team / family shared context ("our house, our kids' school list")</li>
+        <li>Work memory that never leaves a VPC</li>
+        <li>Preference graphs: fit, diet, budget, brands to avoid</li>
+      </ul>
+      <p>Personal superintelligence is only as good as the memory it is allowed to use. That layer is underserved.</p>
+      <h3>6. Trust is an unbuilt product category</h3>
+      <p>Glasses plus an agent that can spend money will scare people. Meta's answers (Audio glasses, Secure VM, some on-device processing) are not a full product.</p>
+      <div class="dg">
+        <div class="dg-title">trust dashboard — empty market, loud demand</div>
+        <div class="dg-list">
+          <div class="dg-check"><span>buy things under $50</span><i class="on">auto</i></div>
+          <div class="dg-check"><span>drive my Mac</span><i>ask me</i></div>
+          <div class="dg-check"><span>camera at work</span><i>off</i></div>
+          <div class="dg-check"><span>explain every spend</span><i class="on">receipt</i></div>
+        </div>
+      </div>
+      <p><strong>Build:</strong></p>
+      <ul>
+        <li>Permission dashboards: see / buy / send / drive-my-Mac</li>
+        <li>Per-connector spend limits</li>
+        <li>Workplace camera-off policies</li>
+        <li>Enterprise connectors with logs</li>
+        <li>"Explain why Muse did that" receipts</li>
+      </ul>
+      <p>Trust software will sell to the same users who download Muse and then get nervous.</p>
+      <h3>7. Spark / Muse Code as internal infrastructure</h3>
+      <p>Spark is the multimodal acting model. Muse Code is the repo agent. Sessions at Connect treat Spark as <strong>perceive → decide → act</strong>, not caption.</p>
+      <div class="dg">
+        <div class="dg-title">closed loop with an audit</div>
+        <div class="dg-flow">
+          <div class="dg-node"><b>perceive</b><span>video · ticket</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>decide</b><span>plan</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>act</b><span>patch</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node hot"><b>verify</b><span>test · rollback</span></div>
+          <div class="dg-arrow">→</div>
+          <div class="dg-node"><b>diff + audit</b><span>shipped</span></div>
+        </div>
+      </div>
+      <p><strong>Build:</strong></p>
+      <ul>
+        <li>Internal agents with harnesses: plan, patch, test, roll back</li>
+        <li>Video-heavy workflows (support, QA, field clips from glasses)</li>
+        <li>Voice-transcribe → ticket → fix loops</li>
+      </ul>
+      <p>Do not sell "a coding chatbot." Sell <strong>closed loops with an audit</strong>.</p>
+      <h2>What not to build</h2>
+      <ul>
+        <li>Another general assistant</li>
+        <li>A Muse skin with no unique verb</li>
+        <li>A glasses app that is just a phone UI shrunk to 600px</li>
+        <li>Shopping search with no checkout</li>
+        <li>Memory features that silently ship user life to a third party</li>
+      </ul>
+      <p>The platform already has a general agent. It needs <strong>specialists it can call</strong>.</p>
+      <h2>Builder order for the next 30 days</h2>
+      <ol>
+        <li>Pick one verb Muse cannot do well in your industry.</li>
+        <li>Ship a connector. Make the action reliable, not clever.</li>
+        <li>Add a glasses or voice path only if the verb needs eyes or hands-free.</li>
+        <li>Wrap money-moving actions in an approval + log.</li>
+        <li>Publish "works with Muse" as the product page, not "powered by AI."</li>
+      </ol>
+      <h2>The opening, in one line</h2>
+      <p>Connect did not finish personal superintelligence. It <strong>opened the API around it</strong>.</p>
+      <p>Muse is the agent. Spark is the brain. Glasses are the context. Charm is the always-on mic. Connectors are the market.</p>
+      <p>The companies that win are the ones that become a sentence Muse can say out loud:</p>
+      <p><em>"I already handled it."</em></p>
     `,
   },
   {
