@@ -11,7 +11,7 @@ export const POSTS: Post[] = [
   {
     slug: "meta-connect-2026-muse",
     tag: "AI news",
-    title: "Meta Connect 2026: What happened to Muse — and the new personal superintelligence market",
+    title: "Meta Connect 2026: What Happened to Muse — and What to Build Next",
     date: "24/09/2026",
     excerpt:
       "Meta Connect 2026 was not a glasses show with an AI cameo. It was Muse getting context, hands, and a distribution layer.",
