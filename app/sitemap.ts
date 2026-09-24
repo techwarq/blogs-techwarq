@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import { POSTS } from "@/lib/posts";
-
-const SITE = "https://blogs-techwarq.vercel.app";
+import { SITE_URL as SITE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts: MetadataRoute.Sitemap = POSTS.map((p) => ({

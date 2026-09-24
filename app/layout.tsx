@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://blogs-techwarq.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: "techwarq — blog",
   description:
     "hey, it's techwarq. how to build without the ai jargon and mess — how to pick and build meaningful stuff.",

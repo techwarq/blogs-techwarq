@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { POSTS, getPost } from "@/lib/posts";
+import { SITE_URL } from "@/lib/site";
 import { highlightPostHtml } from "@/lib/highlight";
 import ThemeToggle from "@/app/theme-toggle";
 import Socials from "@/app/socials";
@@ -39,7 +40,7 @@ export default async function BlogPost({
   const post = getPost(slug);
   if (!post) notFound();
   const bodyHtml = await highlightPostHtml(post.content);
-  const site = "https://blogs-techwarq.vercel.app";
+  const site = SITE_URL;
   const pageUrl = `${site}/blog/${post.slug}`;
 
   const schemas: Record<string, unknown>[] = [];

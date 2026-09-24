@@ -1,6 +1,5 @@
 import { POSTS } from "@/lib/posts";
-
-const SITE = "https://blogs-techwarq.vercel.app";
+import { SITE_URL as SITE } from "@/lib/site";
 
 function escapeXml(s: string) {
   return s
